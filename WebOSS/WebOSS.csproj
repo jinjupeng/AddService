@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cache.Integration\Cache.Integration.csproj" />
+    <ProjectReference Include="..\Cache.MemoryCache\Cache.MemoryCache.csproj" />
+    <ProjectReference Include="..\Cache.Redis\Cache.Redis.csproj" />
+    <ProjectReference Include="..\Config.Abstractions\Config.Abstractions.csproj" />
+    <ProjectReference Include="..\Config.Core\Config.Core.csproj" />
+    <ProjectReference Include="..\OSS.Aliyun\OSS.Aliyun.csproj" />
+    <ProjectReference Include="..\OSS.Integration\OSS.Integration.csproj" />
+    <ProjectReference Include="..\Utils.Core\Utils.Core.csproj" />
+    <ProjectReference Include="..\Utils.Mvc\Utils.Mvc.csproj" />
+  </ItemGroup>
+
+
+</Project>
