@@ -10,6 +10,9 @@
     <ProjectReference Include="..\Cache.Redis\Cache.Redis.csproj" />
     <ProjectReference Include="..\Config.Abstractions\Config.Abstractions.csproj" />
     <ProjectReference Include="..\Config.Core\Config.Core.csproj" />
+    <ProjectReference Include="..\DigitalSignature.Integration\DigitalSignature.Integration.csproj" />
+    <ProjectReference Include="..\DigitalSignature.Utils\DigitalSignature.Utils.csproj" />
+    <ProjectReference Include="..\DigitalSignature\DigitalSignature.csproj" />
     <ProjectReference Include="..\OSS.Aliyun\OSS.Aliyun.csproj" />
     <ProjectReference Include="..\OSS.Integration\OSS.Integration.csproj" />
     <ProjectReference Include="..\Utils.Core\Utils.Core.csproj" />

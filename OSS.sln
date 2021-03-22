@@ -45,11 +45,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{C0F210
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sign", "Sign", "{020A5798-3BDD-4A5A-BE35-63AAD1A3826E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSignature.Abstractions", "DigitalSignature.Abstractions\DigitalSignature.Abstractions.csproj", "{18C81D61-0639-4B19-9975-EE613E230A1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalSignature.Abstractions", "DigitalSignature.Abstractions\DigitalSignature.Abstractions.csproj", "{18C81D61-0639-4B19-9975-EE613E230A1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSignature.Integration", "DigitalSignature.Integration\DigitalSignature.Integration.csproj", "{91753E1C-7857-4B6D-9D89-19065ABE98F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalSignature.Integration", "DigitalSignature.Integration\DigitalSignature.Integration.csproj", "{91753E1C-7857-4B6D-9D89-19065ABE98F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSignature", "DigitalSignature\DigitalSignature.csproj", "{23EA0CE6-B07C-4C7F-BEFD-747F12132B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DigitalSignature", "DigitalSignature\DigitalSignature.csproj", "{23EA0CE6-B07C-4C7F-BEFD-747F12132B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{486CF9C6-82A0-43FC-A37B-EB360F40E5ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSignature.Utils", "DigitalSignature.Utils\DigitalSignature.Utils.csproj", "{FBAD5DD4-D041-419D-8A96-2E4342D95261}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,6 +129,14 @@ Global
 		{23EA0CE6-B07C-4C7F-BEFD-747F12132B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23EA0CE6-B07C-4C7F-BEFD-747F12132B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23EA0CE6-B07C-4C7F-BEFD-747F12132B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486CF9C6-82A0-43FC-A37B-EB360F40E5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486CF9C6-82A0-43FC-A37B-EB360F40E5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486CF9C6-82A0-43FC-A37B-EB360F40E5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486CF9C6-82A0-43FC-A37B-EB360F40E5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBAD5DD4-D041-419D-8A96-2E4342D95261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBAD5DD4-D041-419D-8A96-2E4342D95261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBAD5DD4-D041-419D-8A96-2E4342D95261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBAD5DD4-D041-419D-8A96-2E4342D95261}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -152,6 +164,8 @@ Global
 		{18C81D61-0639-4B19-9975-EE613E230A1E} = {020A5798-3BDD-4A5A-BE35-63AAD1A3826E}
 		{91753E1C-7857-4B6D-9D89-19065ABE98F1} = {020A5798-3BDD-4A5A-BE35-63AAD1A3826E}
 		{23EA0CE6-B07C-4C7F-BEFD-747F12132B5B} = {020A5798-3BDD-4A5A-BE35-63AAD1A3826E}
+		{486CF9C6-82A0-43FC-A37B-EB360F40E5ED} = {ED866CA8-B34A-4B1D-A93A-AC76BC9F2B1B}
+		{FBAD5DD4-D041-419D-8A96-2E4342D95261} = {020A5798-3BDD-4A5A-BE35-63AAD1A3826E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A453C25D-547A-402A-8FC2-76E6C8B7915B}

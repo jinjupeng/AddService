@@ -1,3 +1,4 @@
+using DigitalSignature.Integration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -26,6 +27,8 @@ namespace WebOSS
 
             //加载缓存
             services.AddCache(Configuration);
+
+            services.AddDigitalSignature();
 
             //添加配置管理
             services.AddConfig();
